@@ -17,4 +17,6 @@ The Micro Pro was run as an Arduino Leonardo.
 Since F13 through F20 are non-traditional keystrokes, a separate program, Micro_Pro_HID_Key_Setting, was used to input the keys while assigning hotkeys in OBS.
 The Pro-Micro can become unresponsive if its upload is interrupted. This can be fixed by placing it into bootloading by connecting GND to RST just prior to uploading a new program from the Arduino IDE.
 
+The JSON overlay, Fencing_Camera_Overlay_Using_ScoreBoard_Plus.json, can be imported into OBS and used with the included image to create the overlay.
+
 This intended as a low cost and proof of concept solution. Much of the design and implementation can and will be refined.
